@@ -1,0 +1,7 @@
+1) Intepreter
+    + translate and read files line by line on the fly
+
+2) Compiler
+    + works ahead of time, try to understand the whole thing to create a translation of what code (not translate on the fly)
+-> compile to a language that computer can understand, a low-level language maybe machine code
+    EX: babel, typescript

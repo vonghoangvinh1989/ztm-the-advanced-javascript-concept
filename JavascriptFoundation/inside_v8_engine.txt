@@ -1,0 +1,16 @@
+Intepreter: quick to get up and running (not need to compile into any language)
+    problem with intepreter: running the same code more than one --> really slow
+
+    but the intepreter more intelligent now, with the same code, it just put the result into the place
+
+Compiler: understand the code and compile it one time
+
+Which one is better? 
+In the late 2000, combine the best the both world (intepreter and compiler) --> JIT (Just In Time) Compiler (V8 engine)
+    How: Parser --> AST --> Intepreter --> Bytecode (first step)-----------------------------------------------------------------------------------------------------------|  Machine Code (01101101)
+                               |
+                               |
+                            Profiler (Monitor) (watch how the code as it runs and make note on how we can optimize the code) --> Compiler (JIT) --> Optimized Code---------|
+            note: so the speed of executing javascript code can be improved (gradually)       
+            
+    Why we need to know this? We can write code more optimized                                                                                                                                           (replace the code that can bytecode can optimize)

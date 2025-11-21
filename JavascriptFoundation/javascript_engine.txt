@@ -1,0 +1,9 @@
+Javascript Engine: play in the middle role, understand the Javascript file and talk to computer --> translator
+    Ex: V8 engine created by Google, created by programmer
+
+1) What inside the engine
+    V8: written by C++, low-level proramming language
+    lexical analysis: break the code into tokens (Parser) -> AST (Abstract Syntax Tree) --> Intepreter
+
+    everyone can write Javascript engine, but whatif anyone build it? --> ECMAScript have to create standard 
+(so it's called ECMAScript engines, not Javascript engiens)

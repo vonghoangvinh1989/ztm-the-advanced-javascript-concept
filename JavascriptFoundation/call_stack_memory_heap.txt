@@ -1,0 +1,33 @@
+Javascript: CallStack and Memory Heap inside
+
+1) Call Stack
+    - where the engine keeps track of where your code is in its execution
+    - region in memory to operate first in last out (FILO) mode
+    - store functions and variables when the code executes
+
+2) Memory Heap
+    - memory allocation happens
+    - store and write information
+
+
+const memory = 610; // allocate memory for number
+const string = 'some text'; // allocate memory for a string
+const human = {
+    first: 'vinh',
+    last: 'vong',
+}
+
+function subtractTwo(num) {
+    return num - 2;
+}
+
+function calculate() {
+    const sumTotal = 4 + 5;
+    return subtractTwo(sumTotal);
+}
+
+calculate();
+
+
+
+// Call Stack
