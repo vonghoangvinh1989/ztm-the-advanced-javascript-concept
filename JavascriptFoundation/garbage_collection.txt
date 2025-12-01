@@ -1,0 +1,2 @@
++ javascript automatically free up memory we are no longer use
++ garbage collector languages like javascript freeze memory on the heap but not always --> give the programmer a false impression
